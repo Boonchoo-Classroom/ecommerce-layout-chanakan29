@@ -44,10 +44,10 @@ class HomeFragment : Fragment() {
 
     private fun setupPromotions() {
         val promotions = listOf(
-            Product("โปรโมชั่น 1", "ลด 10%", "https://via.placeholder.com/150/808080/FFFFFF?text=Promo+1"),
-            Product("โปรโมชั่น 2", "ซื้อ 1 แถม 1", "https://via.placeholder.com/150/A9A9A9/FFFFFF?text=Promo+2"),
-            Product("โปรโมชั่น 3", "ลด 50%", "https://via.placeholder.com/150/D3D3D3/000000?text=Promo+3"),
-            Product("โปรโมชั่น 4", "คูปอง 100 บาท", "https://via.placeholder.com/150/F0F8FF/000000?text=Promo+4")
+            Product("โปรโมชั่น 1", "ลด 10%", "https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg"),
+            Product("โปรโมชั่น 2", "ซื้อ 1 แถม 1", "https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg"),
+            Product("โปรโมชั่น 3", "ลด 50%", "https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg"),
+            Product("โปรโมชั่น 4", "คูปอง 100 บาท", "https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg")
         )
 
         val adapter = ProductAdapter(promotions)
