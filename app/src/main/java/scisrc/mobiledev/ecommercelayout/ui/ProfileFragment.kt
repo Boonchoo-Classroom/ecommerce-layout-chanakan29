@@ -23,5 +23,24 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        loadUserProfile()
+    }
+
+    private fun loadUserProfile() {
+        // TODO: ดึงข้อมูลโปรไฟล์ผู้ใช้จากแหล่งข้อมูลของคุณ
+        val userName = "UserName: สมชาย ใจดี"
+        val userEmail = "Email: somchai.jaidee@example.com"
+        val userAddress = "Address: 123/4 ถ.สุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110"
+
+        binding.nameTextView.text = userName
+        binding.emailTextView.text = userEmail
+        binding.addressTextView.text = userAddress
+
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }
